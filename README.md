@@ -59,6 +59,20 @@ Project ini menggunakan **Algoritma machine learning dengan bahasa pemrograman p
 * membuat environment baru dalam anaconda (dapat melalui Anaconda Navigator). pada kasus ini saya menambahkan environment dengan nama **tensorflow**
 
 > ![gambar5](/img/5.JPG)
+### 2. Menginstall Library Requirement
+* Membuka **Anaconda Navigator** 
+* menjalankan environment yang telah dibuat sebelumnya (**tensorflow**)
+* menginstall library sesuai dengan kebutuhan **library requirement** diatas
+* instalasi dapat dilakukan dengan **mencari nama library dan mencentang lalu klik apply pada bagian pojok kanan bawah**
+
+> ![gambar6](/img/6.JPG)
+### 3. Instalasi dan daftar akun PushBullet
+* Mendownload aplikasi PushBullet pada website resminya
+* Melakukan instalasi pada program yang sudah di download (**Program PushBullet**)
+* Melakukan registrasi akun pada pushbullet, registrasi pada web yang nantinya akan terkoneksi pada aplikasinya dengan melakukan login
+* Instalasi PushBullet sukses
+
+> ![gambar7](/img/7.JPG)
 
 
 
