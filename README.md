@@ -88,6 +88,18 @@ Project ini menggunakan **Algoritma machine learning dengan bahasa pemrograman p
 
 
 > ![plot](plot.png)
+### 5. Menjalankan program "detect_gender_webcam.py" untuk melakukan deteksi gender wajah
+* run program dapat dengan cara membuka **anaconda prompt** dan menghidupkan environtment yang dibuat dengan cara ***conda activate tensorflow***. tensorflow sendiri merupakan env yang kita buat pada step sebelumnya
+* selanjutnya menjalankan program dengan perintah **python xx\xx\xx\xx\detect_gender_webcam.py**
+* setelah window webcam terbuka, maka deteksi sudah bisa dilakukan. karena dalam program diset untuk intruder muncul jika yang muncul adalah **perempuan**, maka disaat ada wajah perempuan, program akan langsung mengirimkan notifikasi pada pushbullet user. ***(contoh berikut dapat diterapkan pada toilet laki-laki)***
+
+
+
+
+> ## Hasil Run Program 
+![gambar1](/img/1.png)
+![gambar2](/img/2.png)
+![gambar3](/img/3.png)
 
 
 
