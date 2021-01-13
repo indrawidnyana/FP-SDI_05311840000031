@@ -39,3 +39,25 @@ Project ini menggunakan **Algoritma machine learning dengan bahasa pemrograman p
 
 -----------------------------
 ## Cara Kerja Program
+* **Tensorflow Library dan Keras untuk algoritma pendeteksi wajah**
+    > Penggunaan library ini adalah untuk mengecek apakah ada wajah yang terdapat pada frame kamera, dan semisal ada maka akan dicek kembali apakah wajar dari dalam frame tersebut merupakan wajah laki-laki atau perempuan, sehingga pada proses ini mereturn value 0 atau 1 yang dimana 0 untuk perempuan dan 1 untuk laki-laki. framing didapatkan dari input yang diberikan pada library opencv. setelah itu akan diberikan label sesuai dengan jenis yaitu **laki-laki** atau **perempuan**
+
+* **OpenCV Library untuk framing dan penggunaan kamera**
+    > Untuk frame pada saat deteksi dan juga menghidupkan kamera pada script **detect_gender_webcam.py** menggunakan OpenCV Library sehingga frame-frame tersebut dapat diolah oleh library sebelumnya yaitu **Tensorflow**
+
+* **Capture Frame dan Menyimpan File Image**
+    > Selanjutnya, semisal ada intruder maka akan dilakukan capture frame oleh OpenCV lib dan disave pada direktori dengan nama **Capture.JPG** yang dimana nantinya file tersebutlah yang akan dikirimkan ke **pushbullet notification**
+
+* **Penggunaan PushBullet sebagai Media Notifikasi Alert Intruder**
+    > Pushbullet merupakan sebuah aplikasi yang dapat dipasang di berbagai platform untuk notifikasi (push notification). dalam project ini, pushbullet dikoneksikan dengan code program dengan mengambil **API pada user**, sehingga dapat terkoneksi disaat program ingin mengirimkan notifikasi kepada PushBullet. Notifikasi yang dikirimkan adalah berupa gambar intruder yang sudah dicapture sebelumnya **(Capture.JPG)** serta notifikasi alert sebagai keterangan bahwa ada intruder yang masuk.
+
+------------------------------------------
+
+## Instalasi Program
+
+
+
+
+
+
+
