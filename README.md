@@ -54,7 +54,11 @@ Project ini menggunakan **Algoritma machine learning dengan bahasa pemrograman p
 ------------------------------------------
 
 ## Instalasi Program
+### 1. Menginstall **Anaconda** sebagai platform untuk menjalankan program
+* Melakukan installasi **Anaconda** sebagai platform untuk menjalankan program dan library
+* membuat environment baru dalam anaconda (dapat melalui Anaconda Navigator). pada kasus ini saya menambahkan environment dengan nama **tensorflow**
 
+> ![gambar5](/img/5.JPG)
 
 
 
