@@ -73,6 +73,22 @@ Project ini menggunakan **Algoritma machine learning dengan bahasa pemrograman p
 * Instalasi PushBullet sukses
 
 > ![gambar4](/img/4.JPG)
+### 4. Setup token pada Kode program dengan menggunakan API PushBullet
+* Menemukan API user pada bagian setting dalam website PushBullet
+* Memasukkan API user pada file **detect_gender_webcam.py** lebih tepatnya pada bagian ***token***
+
+
+> ![gambar7](/img/7.JPG)
+### 4. Menjalankan program "train.py" untuk membuat model dengan metode machine learning
+* program pertama dijalankan untuk membuat file **.model** yang akan digunakan untuk model pada program deteksi selanjutnya
+* run program dapat dengan cara membuka **anaconda prompt** dan menghidupkan environtment yang dibuat dengan cara ***conda activate tensorflow***. tensorflow sendiri merupakan env yang kita buat pada step sebelumnya
+* selanjutnya menjalankan program dengan perintah **python xx\xx\xx\xx\train.py** 
+* setelah menunggu proses, maka akan ada file baru dengan nama **gender_detection.model** yang nantinya akan digunakan dalam program detection selanjutnya
+*hasil plot dari machine learningnya dapat dilihat pada gambar dibawah :
+
+
+> ![plot](plot.png)
+
 
 
 
