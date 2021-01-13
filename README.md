@@ -72,7 +72,7 @@ Project ini menggunakan **Algoritma machine learning dengan bahasa pemrograman p
 * Melakukan registrasi akun pada pushbullet, registrasi pada web yang nantinya akan terkoneksi pada aplikasinya dengan melakukan login
 * Instalasi PushBullet sukses
 
-> ![gambar7](/img/7.JPG)
+> ![gambar4](/img/4.JPG)
 
 
 
